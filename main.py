@@ -5,6 +5,8 @@ from collections import deque
 from dataclasses import dataclass, field
 from typing import Deque, Dict, List, Literal, Optional
 from fastapi.middleware.cors import CORSMiddleware
+from keep_alive import keep_alive
+keep_alive()
 
 
 import websockets
